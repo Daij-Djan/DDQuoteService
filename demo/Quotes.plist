@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>demo</key>
+	<array>
+		<dict>
+			<key>text</key>
+			<string>Demo Quote 1</string>
+			<key>link</key>
+			<string>http://www.pich.info</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Demo Quote 2</string>
+			<key>link</key>
+			<string>http://www.pich.info</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>Demo Quote 3</string>
+			<key>link</key>
+			<string>http://www.pich.info</string>
+		</dict>
+	</array>
+	<key>wot</key>
+	<array>
+		<dict>
+			<key>text</key>
+			<string>wot Quote 1</string>
+			<key>link</key>
+			<string>http://www.pich.info</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>wot Quote 2</string>
+			<key>link</key>
+			<string>http://www.pich.info</string>
+		</dict>
+		<dict>
+			<key>text</key>
+			<string>wot Quote 3</string>
+			<key>link</key>
+			<string>http://www.pich.info</string>
+		</dict>
+	</array>
+</dict>
+</plist>
