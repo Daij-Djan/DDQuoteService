@@ -32,8 +32,8 @@
     DDQuote *q = [[self.class alloc] init];
 
     //split
-    unsigned length = [string length];
-    unsigned paraStart = 0, paraEnd = 0, contentsEnd = 0;
+    NSUInteger length = [string length];
+    NSUInteger paraStart = 0, paraEnd = 0, contentsEnd = 0;
     NSMutableArray *array = [NSMutableArray array];
     NSRange currentRange;
     while (paraEnd < length)
