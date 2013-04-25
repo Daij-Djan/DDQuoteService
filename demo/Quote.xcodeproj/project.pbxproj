@@ -13,9 +13,9 @@
 		265E393C103C528D009679FD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 265E393B103C528D009679FD /* AVFoundation.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
-		B3DFBD12170A309400DAD91D /* DDQuote.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DFBD0D170A309400DAD91D /* DDQuote.m */; };
-		B3DFBD13170A309400DAD91D /* DDQuoteService.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DFBD0F170A309400DAD91D /* DDQuoteService.m */; };
-		B3DFBD14170A309400DAD91D /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DFBD11170A309400DAD91D /* GTMNSString+HTML.m */; };
+		B3A6E4C61729263500A9571F /* DDQuote.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A6E4C11729263500A9571F /* DDQuote.m */; };
+		B3A6E4C71729263500A9571F /* DDQuoteService.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A6E4C31729263500A9571F /* DDQuoteService.m */; };
+		B3A6E4C81729263500A9571F /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A6E4C51729263500A9571F /* GTMNSString+HTML.m */; };
 		B3DFBD16170A319600DAD91D /* Quotes.plist in Resources */ = {isa = PBXBuildFile; fileRef = B3DFBD15170A319600DAD91D /* Quotes.plist */; };
 		B4C1F29B1634A419008C4A98 /* QuoteAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C1F2971634A40D008C4A98 /* QuoteAppDelegate.m */; };
 		B4C1F29C1634A419008C4A98 /* QuoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C1F2991634A40D008C4A98 /* QuoteViewController.m */; };
@@ -34,12 +34,12 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Quote_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quote_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Quote-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Quote-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
-		B3DFBD0C170A309400DAD91D /* DDQuote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDQuote.h; sourceTree = "<group>"; };
-		B3DFBD0D170A309400DAD91D /* DDQuote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDQuote.m; sourceTree = "<group>"; };
-		B3DFBD0E170A309400DAD91D /* DDQuoteService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDQuoteService.h; sourceTree = "<group>"; };
-		B3DFBD0F170A309400DAD91D /* DDQuoteService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDQuoteService.m; sourceTree = "<group>"; };
-		B3DFBD10170A309400DAD91D /* GTMNSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSString+HTML.h"; sourceTree = "<group>"; };
-		B3DFBD11170A309400DAD91D /* GTMNSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSString+HTML.m"; sourceTree = "<group>"; };
+		B3A6E4C01729263500A9571F /* DDQuote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDQuote.h; sourceTree = "<group>"; };
+		B3A6E4C11729263500A9571F /* DDQuote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDQuote.m; sourceTree = "<group>"; };
+		B3A6E4C21729263500A9571F /* DDQuoteService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDQuoteService.h; sourceTree = "<group>"; };
+		B3A6E4C31729263500A9571F /* DDQuoteService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDQuoteService.m; sourceTree = "<group>"; };
+		B3A6E4C41729263500A9571F /* GTMNSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSString+HTML.h"; sourceTree = "<group>"; };
+		B3A6E4C51729263500A9571F /* GTMNSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSString+HTML.m"; sourceTree = "<group>"; };
 		B3DFBD15170A319600DAD91D /* Quotes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Quotes.plist; sourceTree = "<group>"; };
 		B4C1F2961634A40D008C4A98 /* QuoteAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuoteAppDelegate.h; sourceTree = "<group>"; };
 		B4C1F2971634A40D008C4A98 /* QuoteAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuoteAppDelegate.m; sourceTree = "<group>"; };
@@ -76,7 +76,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				B3DFBD0B170A309400DAD91D /* DDQuoteService */,
+				B3A6E4BF1729263500A9571F /* DDQuoteService */,
 				B4C1F2961634A40D008C4A98 /* QuoteAppDelegate.h */,
 				B4C1F2971634A40D008C4A98 /* QuoteAppDelegate.m */,
 				B4C1F2981634A40D008C4A98 /* QuoteViewController.h */,
@@ -122,17 +122,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B3DFBD0B170A309400DAD91D /* DDQuoteService */ = {
+		B3A6E4BF1729263500A9571F /* DDQuoteService */ = {
 			isa = PBXGroup;
 			children = (
-				B3DFBD0C170A309400DAD91D /* DDQuote.h */,
-				B3DFBD0D170A309400DAD91D /* DDQuote.m */,
-				B3DFBD0E170A309400DAD91D /* DDQuoteService.h */,
-				B3DFBD0F170A309400DAD91D /* DDQuoteService.m */,
-				B3DFBD10170A309400DAD91D /* GTMNSString+HTML.h */,
-				B3DFBD11170A309400DAD91D /* GTMNSString+HTML.m */,
+				B3A6E4C01729263500A9571F /* DDQuote.h */,
+				B3A6E4C11729263500A9571F /* DDQuote.m */,
+				B3A6E4C21729263500A9571F /* DDQuoteService.h */,
+				B3A6E4C31729263500A9571F /* DDQuoteService.m */,
+				B3A6E4C41729263500A9571F /* GTMNSString+HTML.h */,
+				B3A6E4C51729263500A9571F /* GTMNSString+HTML.m */,
 			);
-			path = DDQuoteService;
+			name = DDQuoteService;
+			path = ../DDQuoteService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +200,9 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				B4C1F29B1634A419008C4A98 /* QuoteAppDelegate.m in Sources */,
 				B4C1F29C1634A419008C4A98 /* QuoteViewController.m in Sources */,
-				B3DFBD12170A309400DAD91D /* DDQuote.m in Sources */,
-				B3DFBD13170A309400DAD91D /* DDQuoteService.m in Sources */,
-				B3DFBD14170A309400DAD91D /* GTMNSString+HTML.m in Sources */,
+				B3A6E4C61729263500A9571F /* DDQuote.m in Sources */,
+				B3A6E4C71729263500A9571F /* DDQuoteService.m in Sources */,
+				B3A6E4C81729263500A9571F /* GTMNSString+HTML.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
