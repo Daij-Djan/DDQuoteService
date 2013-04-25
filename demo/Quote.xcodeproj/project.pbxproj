@@ -16,6 +16,9 @@
 		B3A6E4C61729263500A9571F /* DDQuote.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A6E4C11729263500A9571F /* DDQuote.m */; };
 		B3A6E4C71729263500A9571F /* DDQuoteService.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A6E4C31729263500A9571F /* DDQuoteService.m */; };
 		B3A6E4C81729263500A9571F /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A6E4C51729263500A9571F /* GTMNSString+HTML.m */; };
+		B3A6E4CB172928B800A9571F /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A6E4CA172928B800A9571F /* CustomButton.m */; };
+		B3A6E4D017293AA800A9571F /* check_off.png in Resources */ = {isa = PBXBuildFile; fileRef = B3A6E4CE17293AA800A9571F /* check_off.png */; };
+		B3A6E4D117293AA800A9571F /* check_on.png in Resources */ = {isa = PBXBuildFile; fileRef = B3A6E4CF17293AA800A9571F /* check_on.png */; };
 		B3DFBD16170A319600DAD91D /* Quotes.plist in Resources */ = {isa = PBXBuildFile; fileRef = B3DFBD15170A319600DAD91D /* Quotes.plist */; };
 		B4C1F29B1634A419008C4A98 /* QuoteAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C1F2971634A40D008C4A98 /* QuoteAppDelegate.m */; };
 		B4C1F29C1634A419008C4A98 /* QuoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C1F2991634A40D008C4A98 /* QuoteViewController.m */; };
@@ -40,6 +43,10 @@
 		B3A6E4C31729263500A9571F /* DDQuoteService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDQuoteService.m; sourceTree = "<group>"; };
 		B3A6E4C41729263500A9571F /* GTMNSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSString+HTML.h"; sourceTree = "<group>"; };
 		B3A6E4C51729263500A9571F /* GTMNSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSString+HTML.m"; sourceTree = "<group>"; };
+		B3A6E4C9172928B800A9571F /* CustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomButton.h; sourceTree = "<group>"; };
+		B3A6E4CA172928B800A9571F /* CustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomButton.m; sourceTree = "<group>"; };
+		B3A6E4CE17293AA800A9571F /* check_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check_off.png; sourceTree = "<group>"; };
+		B3A6E4CF17293AA800A9571F /* check_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check_on.png; sourceTree = "<group>"; };
 		B3DFBD15170A319600DAD91D /* Quotes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Quotes.plist; sourceTree = "<group>"; };
 		B4C1F2961634A40D008C4A98 /* QuoteAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuoteAppDelegate.h; sourceTree = "<group>"; };
 		B4C1F2971634A40D008C4A98 /* QuoteAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuoteAppDelegate.m; sourceTree = "<group>"; };
@@ -81,6 +88,8 @@
 				B4C1F2971634A40D008C4A98 /* QuoteAppDelegate.m */,
 				B4C1F2981634A40D008C4A98 /* QuoteViewController.h */,
 				B4C1F2991634A40D008C4A98 /* QuoteViewController.m */,
+				B3A6E4C9172928B800A9571F /* CustomButton.h */,
+				B3A6E4CA172928B800A9571F /* CustomButton.m */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
@@ -101,6 +110,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B3A6E4CE17293AA800A9571F /* check_off.png */,
+				B3A6E4CF17293AA800A9571F /* check_on.png */,
 				B3DFBD15170A319600DAD91D /* Quotes.plist */,
 				B4D66C6D1634945700E68B83 /* Default-568h@2x.png */,
 				B4D66C6E1634945700E68B83 /* Default.png */,
@@ -187,6 +198,8 @@
 				B4D66C711634945700E68B83 /* Default.png in Resources */,
 				B4D66C721634945700E68B83 /* Default@2x.png in Resources */,
 				B3DFBD16170A319600DAD91D /* Quotes.plist in Resources */,
+				B3A6E4D017293AA800A9571F /* check_off.png in Resources */,
+				B3A6E4D117293AA800A9571F /* check_on.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +216,7 @@
 				B3A6E4C61729263500A9571F /* DDQuote.m in Sources */,
 				B3A6E4C71729263500A9571F /* DDQuoteService.m in Sources */,
 				B3A6E4C81729263500A9571F /* GTMNSString+HTML.m in Sources */,
+				B3A6E4CB172928B800A9571F /* CustomButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
