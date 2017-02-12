@@ -1,3 +1,5 @@
+#since iheartquotes.com (the provider of the api) is down, this sample doesnt work. I leave it as educational information   
+
 DDQuoteService
 ==============
 A random quote service that accesses iheartquotes.com and can optionally use a local file as backup.
